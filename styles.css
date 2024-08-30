@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    display: grid;
+    width: 600px;
+    height: 500px;
+    grid-template-columns: repeat(3 , 150px);
+    grid-template-rows: repeat(3 , 150px);
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem auto 0;
+}
+.boxes{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 150px ;
+    border: none;
+    border-radius: 1rem;
+    font-size: 5rem;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+
+}
+#PlayerX , #PlayerO{
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem 1rem 0;
+    border: none;
+    
+}
+#PlayerO{
+    background-color: lightgreen;
+    box-shadow: 0 0 20px lightgreen;
+
+}
+#PlayerX{
+    background-color: lightcoral;
+    box-shadow: 0 0 20px lightcoral;
+}
+.msgBoard{
+    width: 300px;
+    height: 50px;
+    background-color:rgb(0, 100, 104);
+    box-shadow: 0 0 30px rgb(0, 130, 134);
+    text-align: center;
+    padding: 1.1rem 2rem 0;
+    margin: 2rem auto 0;
+    border-radius: 1rem;
+    color: white;
+}
+.player-selection{
+    padding: 2rem;
+    margin: 0 auto 0;
+    text-align: center;
+}
